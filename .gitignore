@@ -29,3 +29,9 @@ desktop.ini
 /checkpoints/*
 !/checkpoints/*.yaml
 /outputs/
+
+# AI Editing Platform.
+/avatars/*
+!/avatars/.gitkeep
+/prompts/
+.env
