@@ -129,7 +129,7 @@ docker-compose -f docker-compose-linux.yml up -d
 ### Step 2: Clone & Setup This Project
 
 ```bash
-git clone https://github.com/jemi2k/index-tts.git && cd index-tts
+git clone https://github.com/jemi2k/ai-avatar-creator.git && cd ai-avatar-creator
 git lfs pull
 uv sync --all-extras
 ```
@@ -246,7 +246,6 @@ index-tts/
 ├── duix_integration.py   # DuiX API + DeepSeek + Avatar library
 ├── .env.example          # Environment config template
 ├── avatars/              # Saved avatar pairs (auto-created)
-├── webui.py              # Original IndexTTS2 WebUI (unchanged)
 └── ...                   # All original IndexTTS2 files (unchanged)
 ```
 
