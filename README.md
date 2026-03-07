@@ -238,17 +238,6 @@ Once you see `Running on local URL: http://127.0.0.1:7861`, open your browser at
 
 ---
 
-## 📁 New Files Added
-
-```
-index-tts/
-├── new_webui.py          # AI Avatar Creator WebUI
-├── duix_integration.py   # DuiX API + DeepSeek + Avatar library
-├── .env.example          # Environment config template
-├── avatars/              # Saved avatar pairs (auto-created)
-└── ...                   # All original IndexTTS2 files (unchanged)
-```
-
 ## 🔧 CLI Options
 
 ```bash
